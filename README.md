@@ -4,7 +4,7 @@ FCS Generator is a tool dedicated used to generate "ground truth" FCS files for 
 	
 ## Requirements
   * software: R(Version 3.5.1), Rstudio(optional)
-  * R packages: shiny, shinydashboard, shinyjs, flowCore, ggplot2, d3r, reshape2, ggridges, truncnorm, ncdfFlow, ggcyto, sunburstR, heatmaply, shinyHeatmaply, tcltk
+  * R packages: shiny, shinydashboard, shinyjs, flowCore, ggplot2, d3r, reshape2, ggridges, truncnorm, ncdfFlow, ggcyto, sunburstR, heatmaply, shinyHeatmaply, tcltk, rlist
   
 ## Quick installation guide
 
@@ -15,7 +15,7 @@ biocLite("Biobase")
 biocLite("flowCore")
 biocLite("ncdfFlow")
 biocLite("ggcyto")
-install.packages(c("shiny", "shinyjs", "shinydashboard", "ggplot2", "d3r", "reshape2", "ggridges", "truncnorm", "sunburstR", "heatmaply", "shinyHeatmaply", "tcltk"))
+install.packages(c("shiny", "shinyjs", "shinydashboard", "ggplot2", "d3r", "reshape2", "ggridges", "truncnorm", "sunburstR", "heatmaply", "shinyHeatmaply", "tcltk", "rlist))
 
 ```
   >You may be asked to reload your environment, if so, accept.

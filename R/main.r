@@ -28,6 +28,7 @@ FCSGenerator2.5.run <- function()
     library(heatmaply)
     library(shinyHeatmaply)
     library(tcltk)
+    library(rlist)
     
     appDir <- system.file("shinyApp", "app", package = "FCSGenerator2.5")
     if (appDir == "")
