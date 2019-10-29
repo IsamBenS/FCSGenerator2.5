@@ -20,7 +20,7 @@ install.packages(c("shiny", "shinyjs", "shinydashboard", "ggplot2", "d3r", "resh
 ```
   >You may be asked to reload your environment, if so, accept.
   
-  2. Then next commands:
+  2. Then:
 ```
 library("devtools")
 install_github("isambens/fcsgenerator2.5")
