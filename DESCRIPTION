@@ -8,5 +8,5 @@ Description: FCS Generator is a tool dedicated used to generate "ground truth" F
 License: ?
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.1.0), shiny, shinydashboard, shinyjs, flowCore, ggplot2, d3r, reshape2, ggridges, truncnorm, sunburstR, heatmaply, shinyHeatmaply, Biobase, tcltk
+Depends: R (>= 3.1.0), shiny, shinydashboard, shinyjs, flowCore, ggplot2, d3r, reshape2, ggridges, truncnorm, sunburstR, heatmaply, shinyHeatmaply, Biobase, tcltk, rlist, ncdfFlow, ggcyto
 Packaged: 2019-10-29 13:18:46 UTC;
