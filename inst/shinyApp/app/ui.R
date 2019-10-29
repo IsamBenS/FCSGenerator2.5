@@ -1,11 +1,3 @@
-library(shiny)
-library(shinydashboard)
-library(shinyjs)
-library(sunburstR)
-library(heatmaply)
-library(shinyHeatmaply)
-
-
 ui <- dashboardPage(
     
     dashboardHeader

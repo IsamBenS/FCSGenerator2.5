@@ -1,22 +1,3 @@
-library(shiny)
-library(shinydashboard)
-library(shinyjs)
-library(flowCore)
-library(ggplot2)
-library(d3r)
-library(reshape2)
-library(ggridges)
-library(truncnorm)
-library(tcltk)
-library(rlist)
-
-source("GenerateFCS.R")
-source("SaveAndLoadFCS.R")
-source("ModifyFCS.R")
-source("MergeFiles.R")
-source("TransformationAndCompensation.R")
-source("FCSGframework.R")
-
 Sys.setlocale('LC_ALL','C')
 
 server <- function(input, output, session)
@@ -47,7 +28,7 @@ server <- function(input, output, session)
     )
     
     env.var <- reactiveValues(
-        tool.wd = getwd() #system.file("shinyApp", "app", package = "FCSGenerator2")
+        tool.wd = system.file("shinyApp", "app", package = "FCSGenerator2")
     )
     
     
