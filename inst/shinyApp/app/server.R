@@ -89,58 +89,7 @@ server <- function(input, output, session)
     
     
     
-    # #INIT - TESTING PURPOSE
-    # observe(
-    # {
-    #     if(app.variables$init)
-    #     {
-    #         nmb.files <- 1
-    #         nmb.populations <- 15
-    #         nmb.events <- 1000
-    #         nmb.markers <- 5
-    # 
-    #         if(nmb.populations>0 & nmb.events>0 & nmb.markers>0)
-    #         {
-    #             progress <- Progress$new()
-    #             progress$set(message = "Generating Files", value = 0)
-    #             # update.log("GENERATING FILES")
-    #             pop.names <- 1:nmb.populations
-    # 
-    # 
-    #             min.freq.list <- rep(100/nmb.populations,nmb.populations)
-    # 
-    #             max.freq.list <- rep(100/nmb.populations+1,nmb.populations)
-    # 
-    #             for(current.file in 1:nmb.files)
-    #             {
-    #                 tmp.name <- paste0("GEN_",current.file,"__",nmb.events,"_",
-    #                                    nmb.markers,"_",nmb.populations,"_",
-    #                                    trunc(as.numeric(Sys.time())))
-    #                 x <- generate.FCSG2(nmb.events, nmb.markers, nmb.populations, min.freq.list, max.freq.list)
-    #                 if(length(app.variables$ref.objects)==0)
-    #                 {
-    #                     app.variables$ref.objects <- list()
-    #                 }
-    #                 app.variables$ref.objects <- list.append(app.variables$ref.objects,
-    #                                                          as.list(list("FCSG2"=x,
-    #                                                                       "Transformed"=T,
-    #                                                                       "Compensated"=T,
-    #                                                                       "Name"=tmp.name,
-    #                                                                       "AnnotationColumn"=nmb.markers+2,
-    #                                                                       "Markers"=c(1:nmb.markers))))
-    # 
-    #                 progress$inc(1/nmb.files, detail = paste(tmp.name, "generated"))
-    #                 # update.log(paste("========", tmp.name, "generated"))
-    #             }
-    #             progress$set(message = "Files generated", value = 1)
-    #             # update.log("======== FILES GENERATED")
-    #             # update.log("")
-    #             delay(700, progress$close())
-    #         }
-    # 
-    #         app.variables$init <- F
-    #     }
-    # })
+    
     
     
     #1 - Add Reference Files
