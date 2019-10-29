@@ -28,7 +28,7 @@ server <- function(input, output, session)
     )
     
     env.var <- reactiveValues(
-        tool.wd = system.file("shinyApp", "app", package = "FCSGenerator2")
+        tool.wd = system.file("shinyApp", "app", package = "FCSGenerator2.5")
     )
     
     
