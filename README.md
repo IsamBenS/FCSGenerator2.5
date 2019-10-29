@@ -31,6 +31,6 @@ install_github("isambens/fcsgenerator2.5")
 
   Run the following commands in R/RStudio:
 ```
-library("FCSGenerator2")
-FCSGenerator2.run()
+library("FCSGenerator2.5")
+FCSGenerator2.5.run()
 ```
